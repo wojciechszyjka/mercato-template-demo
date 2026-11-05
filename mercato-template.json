@@ -1,0 +1,325 @@
+{
+  "schema": 1,
+  "name": "tmpl-src",
+  "description": "Demo template made with create-mercato-template for PR 8732 QA",
+  "openMercato": "0.9.x",
+  "modules": [
+    {
+      "id": "dashboards",
+      "from": "@open-mercato/core"
+    },
+    {
+      "id": "auth",
+      "from": "@open-mercato/core"
+    },
+    {
+      "id": "directory",
+      "from": "@open-mercato/core"
+    },
+    {
+      "id": "customers",
+      "from": "@open-mercato/core"
+    },
+    {
+      "id": "perspectives",
+      "from": "@open-mercato/core"
+    },
+    {
+      "id": "entities",
+      "from": "@open-mercato/core"
+    },
+    {
+      "id": "configs",
+      "from": "@open-mercato/core"
+    },
+    {
+      "id": "query_index",
+      "from": "@open-mercato/core"
+    },
+    {
+      "id": "audit_logs",
+      "from": "@open-mercato/core"
+    },
+    {
+      "id": "attachments",
+      "from": "@open-mercato/core"
+    },
+    {
+      "id": "catalog",
+      "from": "@open-mercato/core"
+    },
+    {
+      "id": "sales",
+      "from": "@open-mercato/core"
+    },
+    {
+      "id": "warranty_claims",
+      "from": "@open-mercato/core"
+    },
+    {
+      "id": "wms",
+      "from": "@open-mercato/core"
+    },
+    {
+      "id": "api_keys",
+      "from": "@open-mercato/core"
+    },
+    {
+      "id": "devices",
+      "from": "@open-mercato/core"
+    },
+    {
+      "id": "dictionaries",
+      "from": "@open-mercato/core"
+    },
+    {
+      "id": "content",
+      "from": "@open-mercato/content",
+      "package": "@open-mercato/content@0.9.0"
+    },
+    {
+      "id": "onboarding",
+      "from": "@open-mercato/onboarding",
+      "package": "@open-mercato/onboarding@0.9.0"
+    },
+    {
+      "id": "api_docs",
+      "from": "@open-mercato/core"
+    },
+    {
+      "id": "business_rules",
+      "from": "@open-mercato/core"
+    },
+    {
+      "id": "feature_toggles",
+      "from": "@open-mercato/core"
+    },
+    {
+      "id": "workflows",
+      "from": "@open-mercato/core"
+    },
+    {
+      "id": "search",
+      "from": "@open-mercato/search",
+      "package": "@open-mercato/search@0.9.0"
+    },
+    {
+      "id": "currencies",
+      "from": "@open-mercato/core"
+    },
+    {
+      "id": "planner",
+      "from": "@open-mercato/core"
+    },
+    {
+      "id": "resources",
+      "from": "@open-mercato/core"
+    },
+    {
+      "id": "staff",
+      "from": "@open-mercato/core"
+    },
+    {
+      "id": "events",
+      "from": "@open-mercato/events",
+      "package": "@open-mercato/events@0.9.0"
+    },
+    {
+      "id": "notifications",
+      "from": "@open-mercato/core"
+    },
+    {
+      "id": "progress",
+      "from": "@open-mercato/core"
+    },
+    {
+      "id": "integrations",
+      "from": "@open-mercato/core"
+    },
+    {
+      "id": "data_sync",
+      "from": "@open-mercato/core"
+    },
+    {
+      "id": "sync_excel",
+      "from": "@open-mercato/core"
+    },
+    {
+      "id": "messages",
+      "from": "@open-mercato/core"
+    },
+    {
+      "id": "communication_channels",
+      "from": "@open-mercato/core"
+    },
+    {
+      "id": "push_notifications",
+      "from": "@open-mercato/core"
+    },
+    {
+      "id": "phone_calls",
+      "from": "@open-mercato/core"
+    },
+    {
+      "id": "ai_assistant",
+      "from": "@open-mercato/ai-assistant",
+      "package": "@open-mercato/ai-assistant@0.9.0"
+    },
+    {
+      "id": "translations",
+      "from": "@open-mercato/core"
+    },
+    {
+      "id": "scheduler",
+      "from": "@open-mercato/scheduler",
+      "package": "@open-mercato/scheduler@0.9.0"
+    },
+    {
+      "id": "inbox_ops",
+      "from": "@open-mercato/core"
+    },
+    {
+      "id": "payment_gateways",
+      "from": "@open-mercato/core"
+    },
+    {
+      "id": "checkout",
+      "from": "@open-mercato/checkout",
+      "package": "@open-mercato/checkout@0.9.0"
+    },
+    {
+      "id": "documents",
+      "from": "@open-mercato/documents",
+      "package": "@open-mercato/documents@0.9.0"
+    },
+    {
+      "id": "gateway_stripe",
+      "from": "@open-mercato/gateway-stripe",
+      "package": "@open-mercato/gateway-stripe@0.9.0"
+    },
+    {
+      "id": "channel_resend",
+      "from": "@open-mercato/channel-resend",
+      "package": "@open-mercato/channel-resend@0.9.0"
+    },
+    {
+      "id": "channel_ses",
+      "from": "@open-mercato/channel-ses",
+      "package": "@open-mercato/channel-ses@0.9.0"
+    },
+    {
+      "id": "channel_imap",
+      "from": "@open-mercato/channel-imap",
+      "package": "@open-mercato/channel-imap@0.9.0"
+    },
+    {
+      "id": "channel_gmail",
+      "from": "@open-mercato/channel-gmail",
+      "package": "@open-mercato/channel-gmail@0.9.0"
+    },
+    {
+      "id": "channel_apns",
+      "from": "@open-mercato/channel-apns",
+      "package": "@open-mercato/channel-apns@0.9.0"
+    },
+    {
+      "id": "channel_expo",
+      "from": "@open-mercato/channel-expo",
+      "package": "@open-mercato/channel-expo@0.9.0"
+    },
+    {
+      "id": "channel_fcm",
+      "from": "@open-mercato/channel-fcm",
+      "package": "@open-mercato/channel-fcm@0.9.0"
+    },
+    {
+      "id": "sync_akeneo",
+      "from": "@open-mercato/sync-akeneo",
+      "package": "@open-mercato/sync-akeneo@0.9.0"
+    },
+    {
+      "id": "tillio",
+      "from": "@open-mercato/tillio",
+      "package": "@open-mercato/tillio@0.9.0"
+    },
+    {
+      "id": "shipping_carriers",
+      "from": "@open-mercato/core"
+    },
+    {
+      "id": "eudr",
+      "from": "@open-mercato/core"
+    },
+    {
+      "id": "webhooks",
+      "from": "@open-mercato/webhooks",
+      "package": "@open-mercato/webhooks@0.9.0"
+    },
+    {
+      "id": "telemetry",
+      "from": "@open-mercato/telemetry",
+      "package": "@open-mercato/telemetry@0.9.0"
+    },
+    {
+      "id": "customer_accounts",
+      "from": "@open-mercato/core"
+    },
+    {
+      "id": "portal",
+      "from": "@open-mercato/core"
+    },
+    {
+      "id": "ratelimit_probe",
+      "from": "@app"
+    },
+    {
+      "id": "example_customers_sync",
+      "from": "@app",
+      "when": "module:example"
+    },
+    {
+      "id": "storage_s3",
+      "from": "@open-mercato/storage-s3",
+      "when": "OM_ENABLE_STORAGE_S3"
+    },
+    {
+      "id": "record_locks",
+      "from": "@open-mercato/enterprise",
+      "package": "@open-mercato/enterprise@0.9.0",
+      "when": "OM_ENABLE_ENTERPRISE_MODULES"
+    },
+    {
+      "id": "system_status_overlays",
+      "from": "@open-mercato/enterprise",
+      "package": "@open-mercato/enterprise@0.9.0",
+      "when": "OM_ENABLE_ENTERPRISE_MODULES"
+    },
+    {
+      "id": "sso",
+      "from": "@open-mercato/enterprise",
+      "package": "@open-mercato/enterprise@0.9.0",
+      "when": "OM_ENABLE_ENTERPRISE_MODULES && OM_ENABLE_ENTERPRISE_MODULES_SSO"
+    },
+    {
+      "id": "security",
+      "from": "@open-mercato/enterprise",
+      "package": "@open-mercato/enterprise@0.9.0",
+      "when": "OM_ENABLE_ENTERPRISE_MODULES && OM_ENABLE_ENTERPRISE_MODULES_SECURITY"
+    },
+    {
+      "id": "agent_orchestrator",
+      "from": "@open-mercato/enterprise",
+      "package": "@open-mercato/enterprise@0.9.0",
+      "when": "OM_ENABLE_ENTERPRISE_MODULES && OM_ENABLE_ENTERPRISE_MODULES_AGENTS"
+    },
+    {
+      "id": "agent_examples",
+      "from": "@app",
+      "when": "OM_ENABLE_ENTERPRISE_MODULES && OM_ENABLE_ENTERPRISE_MODULES_AGENTS"
+    }
+  ],
+  "createdWith": {
+    "tool": "create-mercato-template",
+    "version": "0.1.0"
+  }
+}
